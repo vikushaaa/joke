@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    padding-top: 20vh;
+   
+}
+.container{
+    
+    text-align: center;
+    background-color: goldenrod;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: 18%; */
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+#btn{
+    cursor: pointer;
+    background: black;
+    color: darkkhaki;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#joke{
+    font-family: inherit;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+#pid{
+    font-size: 20px;
+    font-weight: 700;
+}
